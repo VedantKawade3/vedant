@@ -1,0 +1,14 @@
+[project]
+name = "vedant"
+version = "0.1.0"
+description = "My CLI tool"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name="Vedant"}]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+vedant = "vedant.cli:main"
